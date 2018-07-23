@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar {
+    padding: 0rem 1rem;
+    font-size:18;
+}
+
+.navbar-custom-colour{
+    background-color:#282E34;
+}
+
+.navbar-brand{
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+.nav-link{
+    font-size: 0.75rem;
+}
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-block {
+    background-color: #282E34;
+    padding: 0.8rem 0 0.2rem 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.section {
+    width:100%;
+    padding: 2.4rem 0;
+
+    .title{
+        padding-top:12px;
+        padding-bottom:24px;
+    }
+}
+
+.dark-section{
+    background-color:#282E34;
+    color: #ddd;
+}
+
+.light-section{
+    background-color: white;
+    color: #777;
+}
+
+.full-screen-section {
+    min-height: 100vh;
+}
+
+.half-screen-section {
+    min-height: 50vh;
+}
+
+.fifth-screen-section {
+    min-height: 20vh;
+}
+
+.section-break-image {
+    background-size: cover;
+    height: 50vh;
+}
+
+.break-1{
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg") no-repeat center center;
+}
+
+.break-2{
+    background: url("https://www.w3schools.com/howto/img_parallax.jpg") no-repeat center center;
+}
+
+
+.parallax { 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rss-feed-card{
+    margin:12px 0;
+}
+
+.contact-link{
+    padding:6px;
+    color:#777;
+}
+
+.card {
+
+    .card-body {
+
+        h5{
+            font-size:1rem;
+        }
+
+        .card-text{
+            font-size: 0.7rem;
+            // white-space: nowrap; 
+            // overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .btn-primary{
+            background-color: #282E34 !important;
+            color: white;
+            font-size:0.7rem;
+        }
+    }
+}
+ 

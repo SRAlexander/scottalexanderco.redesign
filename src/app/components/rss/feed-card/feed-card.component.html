@@ -1,0 +1,10 @@
+<div class="card card-feed-entry">
+    <img class="card-img-top" src="{{feed.thumbnail}}" alt="{{feed.title}}">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{feed.title}}
+    </h5>
+    <p class="card-text">{{feed.description | stripHtmlTags}}</p>
+    <button class="btn btn-primary" (click)="goToPost(feed.link)">Read more</button>
+  </div>
+</div>
